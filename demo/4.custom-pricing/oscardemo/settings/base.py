@@ -166,7 +166,7 @@ OSCAR_ORDER_STATUS_PIPELINE = {
     'Cancelled': (),
 }
 
-OSCAR_DEFAULT_CURRENCY = "ILS"
+OSCAR_DEFAULT_CURRENCY = "ZMK"
 
 # paypal
 from django.utils.translation import ugettext_lazy as _
@@ -192,3 +192,5 @@ INSTALLED_APPS += [
     'oscardemo.catalogue',
     'oscardemo.partner',
 ])
+
+OSCAR_SHOP_NAME = "Emark"

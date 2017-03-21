@@ -187,3 +187,5 @@ OSCAR_DASHBOARD_NAVIGATION.append({
         },
     ]
 })
+
+OSCAR_DEFAULT_CURRENCY = "ZMK"
