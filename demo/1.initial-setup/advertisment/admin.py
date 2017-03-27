@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 # __author__: Alison Mukoma
-from __future__ import absolute_import
 
+from __future__ import absolute_import
 from django.contrib import admin
 
 from .models import Advert
@@ -15,4 +15,4 @@ admin.site.register(Advert, AdvertModelAdmin)
 # Advert category model admin registration
 class AdvertCategoryModelAdmin(admin.ModelAdmin):
     list_display = ["name"]
-admin.site.register(AdminCategory, AdvertCategoryModelAdmin)
+admin.site.register(AdvertCategory, AdvertCategoryModelAdmin)
