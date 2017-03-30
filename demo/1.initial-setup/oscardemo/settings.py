@@ -193,7 +193,7 @@ OSCAR_DEFAULT_CURRENCY = "ZMK"
 # Django Suit configuration example
 SUIT_CONFIG = {
     # header
-    'ADMIN_NAME': 'emark',
+    'ADMIN_NAME': 'allStores',
     'HEADER_DATE_FORMAT': 'l, j. F Y',
     'HEADER_TIME_FORMAT': 'H:i',
 
@@ -220,8 +220,8 @@ SUIT_CONFIG = {
     'LIST_PER_PAGE': 15
 }
 
-OSCAR_SHOP_NAME = "Emark"
-OSCAR_SHOP_TAGLINE = "serving you better"
+OSCAR_SHOP_NAME = "allStores"
+OSCAR_SHOP_TAGLINE = "Every store in one place"
 # OSCAR_SHOP_TAGLINE = "buy and advertise goods here"
 
 from django.utils.translation import ugettext_lazy as _

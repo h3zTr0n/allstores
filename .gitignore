@@ -64,3 +64,8 @@ image_not_found.jpg
 .idea/
 node_modules/
 CACHE/
+
+ 
+*.pyc
+staticfiles
+.env
