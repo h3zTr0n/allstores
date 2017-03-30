@@ -14,3 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "oscardemo.settings.override")
 
 application = get_wsgi_application()
+
+# heroku deployment configurations
+from whitenoise.django import DjangoWhiteNoise
+application = DjangoWhiteNoise(application)
